@@ -27,10 +27,12 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 Web
-<img src='/web102_project1_web.gif' title='Web Video Walkthrough' width='' alt='Web Video Walkthrough' />
+
+<img src='https://github.com/nohabean/communityboard/blob/main/public/web102_project1_web.gif' title='Web Video Walkthrough' width='' alt='Web Video Walkthrough' width=1000px height=auto />
 
 Mobile
-<img src='/web102_project1_mobile.gif' title='Mobile Video Walkthrough' width='' alt='Mobile Video Walkthrough' />
+
+<img src='https://github.com/nohabean/communityboard/blob/main/public/web102_project1_mobile.gif' title='Mobile Video Walkthrough' width='' alt='Mobile Video Walkthrough' width=400px height=700px />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIFs created with ScreenToGif 
@@ -45,7 +47,7 @@ The biggest challenged I faced was getting the different sized images for each m
 
 ## License
 
-    &copy; Copyright 2024 Noah Dean
+    Copyright 2024 Noah Dean
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
