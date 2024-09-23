@@ -3,9 +3,9 @@ import Movie from './Movie';
 
 const MovieCard = ({ movies }) => {
   return (
-    <div className="movie-card-container"> {/* Outer container */}
+    <div className="movie-card-container">
       {movies.map((movie, index) => (
-        <div className="movie-card" key={index}>  {/* Each movie has its own card */}
+        <div className="movie-card" key={index}> 
           <Movie
             image={movie.image}
             name={movie.name}

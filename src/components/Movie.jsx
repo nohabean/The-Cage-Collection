@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Movie = ({ image, name, runtime, genre, release_date, description, imdb }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
   const maxDescriptionLength = 50;
-
-  const toggleDescription = () => {
-    setIsExpanded(!isExpanded);
-  };
 
   return (
     <div className="movie">
@@ -20,7 +15,7 @@ const Movie = ({ image, name, runtime, genre, release_date, description, imdb })
           </div>
           <p>📅 {release_date}</p>
           <p className="movie-description">
-            {isExpanded ? description : `${description.slice(0, maxDescriptionLength)}...`}
+            {`${description.slice(0, maxDescriptionLength)}...`}
           </p>
         </div>
         <a href={imdb} target="_blank"><button className="link-button">See More</button></a>
