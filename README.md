@@ -20,7 +20,7 @@ The Cage Collection is a website created using React + Vite that features a comp
 1. Clone the Git repo and navigate to the directory
 
     ```
-    git clone https://github.com/{username}/The-Cage-Collection.git
+    git clone https://github.com/nohabean/The-Cage-Collection.git
     cd ./path/to/The-Cage-Collection
     ```
 
