@@ -1,49 +1,54 @@
-# Web Development Project 1 - The Cage Collection
+# The Cage Collection
+The Cage Collection is a website created using React + Vite that features a comprehensive list of all of movies that Nicolas Cage has starred in. Displayed on each movie card is the name of the movie, the movie's runtime, genres, release date, a short description, and a button that links to the external IMDB website. The data for the movies is stored on a JSON file which can be easily updated as new movies are released. This web app was created for CodePath's WEB102 Intermediate Web Development course. 
 
-Submitted by: Noah Dean
+### Languages Used
+<ul>
+    <li>JavaScript</li>
+    <li>HTML 5</li>
+    <li>CSS 3</li>
+</ul>
 
-This web app: The Cage Collection is a website created using React + Vite that features a comprehensive list of all of movies that Nicolas Cage has starred in. Displayed on each movie card is the name of the movie, the movie's runtime, genres, release date, a short description, and a button that links to the external IMDB website. 
+### Technologies, Libraries, and IDEs Used
+<ul>
+    <li>React.js</li>
+    <li>Vite</li>
+    <li>JSON</li>
+    <li>Node.js</li>
+</ul>
 
-Time spent: **20** hours spent in total
+## Setup
+1. Clone the Git repo and navigate to the directory
 
-## Required Features
+    ```
+    git clone https://github.com/{username}/The-Cage-Collection.git
+    cd ./path/to/The-Cage-Collection
+    ```
 
-The following **required** functionality is completed:
+2. Install Node.js packages
 
-- [X] **There is a unique theme for events or resources relevant to a specific community**
-- [X] **At least 10 unique resources or events are displayed in a responsive card format**
+    ```
+    npm init
+    ```
 
-The following **optional** features are implemented:
+4. Run the app using
 
-- [X] Buttons or links to a related resources are on each card component
-- [X] The site is responsive for both desktop and mobile formats
+    ```bash
+    npm run dev
+    #  or
+    yarn dev
+    ```
 
-The following **additional** features are implemented:
+5. Open local development server in the browser at [https://localhost:5173](http://localhost:5173) 
 
-* [ ] List anything else that you added to improve the site's functionality!
+## Demo
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented required features:
-
-Web
+### Web
 
 <img src='https://github.com/nohabean/communityboard/blob/main/public/web102_project1_web.gif' title='Web Video Walkthrough' width='' alt='Web Video Walkthrough' width=1000px height=auto />
 
-Mobile
+### Mobile
 
 <img src='https://github.com/nohabean/communityboard/blob/main/public/web102_project1_mobile.gif' title='Mobile Video Walkthrough' width='' alt='Mobile Video Walkthrough' width=400px height=700px />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIFs created with ScreenToGif 
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-The biggest challenged I faced was getting the different sized images for each movie to display correctly without cutting off the image and making it responsive for different screen sizes.
 
 ## License
 
